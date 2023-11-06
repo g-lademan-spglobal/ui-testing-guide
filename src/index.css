@@ -324,6 +324,7 @@ textarea {
 
 .list-item input[type="text"] {
   background: transparent;
+  color: red;
   width: 100%;
 }
 

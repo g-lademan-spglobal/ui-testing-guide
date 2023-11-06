@@ -50,7 +50,7 @@ export default function Task({
           aria-label={state === "TASK_PINNED" ? "unpin" : "pin"}
           key={`pinTask-${id}`}
         >
-          <span className={`icon-star`} />
+          <span className={`icon-bell`} />
         </button>
       )}
     </div>
