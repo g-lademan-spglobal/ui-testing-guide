@@ -1,88 +1,21 @@
-<p align="center">
-  <a href="https://www.chromatic.com/">
-    <img alt="Chromatic" src="https://avatars2.githubusercontent.com/u/24584319?s=200&v=4" width="60" />
-  </a>
-</p>
-
-<h1 align="center">
-  Chromatic's UI Testing Handbook React template
-</h1>
-
-This template ships with the main React and Storybook configuration files you'll need to get up and running fast.
-
-## 🚅 Quick start
-
-1.  **Create the application.**
-
-    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
-
-    ```shell
-    # Clone the template
-    npx degit chromaui/ui-testing-handbook-react-template ui-testing-guide-code
-    ```
-
-1.  **Install the dependencies.**
-
-    Navigate into your new site’s directory and install the necessary dependencies.
-
-    ```shell
-    # Navigate to the directory
-    cd ui-testing-guide-code/
-
-    # Install the dependencies
-    yarn
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Open the `ui-testing-guide-code` directory in your code editor of choice and building your first component!
-
-1.  **Browse your stories!**
-
-    Run `yarn storybook` to see your component's stories at `http://localhost:6006`
-
-## 🔎 What's inside?
-
-A quick look at the top-level files and directories included with this template.
-
-    .
-    ├── .storybook
-    ├── node_modules
-    ├── public
-    ├── src
-    ├── .gitignore
-    ├── .index.html
-    ├── package.json
-    ├── yarn.lock
-    ├── vite.config.js
-    └── README.md
-
-1.  **`.storybook`**: This directory contains Storybook's [configuration](https://storybook.js.org/docs/react/configure/overview) files.
-
-2.  **`node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages).
-
-3.  **`public`**: This directory will contain the development and production build of the site.
-
-4.  **`src`**: This directory will contain all of the code related to what you will see on your application.
-
-5.  **`.gitignore`**: This file tells git which files it should not track or maintain during the development process of your project.
-
-6.  **`.index.html`**: This is the HTML page that is served when generating a development or production build.
-
-7.  **`package.json`**: Standard manifest file for Node.js projects, which typically includes project specific metadata (such as the project's name, the author among other information). It's based on this file that npm will know which packages are necessary to the project.
-
-8.  **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(Do not change it manually).**
-
-9.  **`vite.config.js`**: This is the configuration file for [Vite](https://vitejs.dev/), a build tool that aims to provide a faster and leaner development experience for modern web projects.
-
-10. **`README.md`**: A text file containing useful reference information about the project.
-
-## Contribute
-
-If you encounter an issue with the template, we encourage you to open an issue in this template's repository.
-
-## Learning Storybook
-
-1. Read our introductory tutorial at [Learn Storybook](https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/).
-2. Learn how to transform your component libraries into design systems in our [Design Systems for Developers](https://storybook.js.org/tutorials/design-systems-for-developers/) tutorial.
-3. See our official documentation at [Storybook](https://storybook.js.org/).
+1. npm run storybook - short introduction, what is storybook, what is our project about
+2. chromatic - what it is?
+3. npm run chromatic
+4. explain chromatic
+5. git checkout 8ba8cece695cf671428373cf15b439d80009c186
+6. npm run chromatic
+7. show diff and explain
+8. git checkout 899262f3b05c3dd594239840aedeffbe9abf6bd1
+9. discuss actions visible in the storybook actions tab
+10. git checkout 60d1cde4b62a8a77ed22e21f7c92490e3b28f120
+11. showcase msw mock service worker - in inboxscreen.stories.jsx there are configured mock handlers
+12. npm run chormatic - check if we have any regressions
+13. git checkout 39c383fda5ff7a1d0fdc70b505ef82646b1c7b3a - change input color
+14. npm run chormatic - check if we have any regressions - check how much our small change has affected in storybook
+15. git checkout f8fab0dbb55a2667ce634875765165c936b24df0 - interaction test in sb
+16. npm run test-storybook --watch -> NEW TERMINAL to run test from console (ex pipline)
+17. git checkout f2feca0fb0b76df649d919de37a01894693159a6 - revert red font
+18. accessibility tests - show how it looks in storybook
+19. run the min console, npm run storybook, and then npm run test-storybook
+20. git checkout 1de53d47d70372cd16a137fdb563efe5d2bc79e5 - add cypress
+21. npm run dev, npm run cypress
